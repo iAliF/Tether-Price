@@ -7,7 +7,7 @@ with open(path.join(current_dir, 'README.md')) as f:
     description = f.read()
 
 setup(
-    name='Tether Price',
+    name='tether-price',
     packages=find_packages(),
     version='0.0.1',
     license='MIT',
@@ -38,5 +38,6 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ]
 )
