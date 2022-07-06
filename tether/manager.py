@@ -2,8 +2,8 @@ from queue import Queue
 from threading import Thread
 from typing import List
 
-from models import PricesList
-from sources.base import SourceBase
+from .models import PricesList
+from .sources.base import SourceBase
 
 
 class SourceManager:
