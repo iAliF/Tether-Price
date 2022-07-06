@@ -11,7 +11,7 @@ setup(
     packages=find_packages(),
     version='0.0.1',
     license='MIT',
-    description='Tether Price is a library that help you to get Tether price from various websites.',
+    description='Tether Price is a library that helps you to get the Tether price from various websites.',
     long_description=description,
     long_description_content_type='text/markdown',
     author='Ali Fotouhi',
