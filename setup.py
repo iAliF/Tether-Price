@@ -9,7 +9,7 @@ with open(path.join(current_dir, 'README.md')) as f:
 setup(
     name='tether-price',
     packages=find_packages(),
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     description='Tether Price is a library that helps you to get the Tether price from various websites.',
     long_description=description,
