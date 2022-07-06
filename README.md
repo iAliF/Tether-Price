@@ -1,10 +1,10 @@
 # Tether Price
 
-### Tether price is a library that helps you to get Tether price from various websites.
+### Tether price is a library that helps you to get the Tether price from various websites.
 
 ## How To Install
 
-#### You can use following command to install it.
+#### You can use the following command to install it.
 
 ```commandline
 pip install tether-price
