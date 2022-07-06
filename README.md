@@ -14,10 +14,11 @@ pip install tether-price
 
 ```python
 from tether import SourceManager
-from tether.sources import Bitbarg
+from tether.sources import *
 
 manager = SourceManager()
 manager.add(Bitbarg())
+manager.add(ArzPaya())
 
 if __name__ == '__main__':
     prices_list = manager.get_prices_list()
