@@ -19,10 +19,12 @@ from tether.sources import *
 manager = SourceManager()
 manager.add(Bitbarg())
 manager.add(ArzPaya())
+manager.add(Wallex())
+manager.add(Hamtapay())
 
 if __name__ == '__main__':
     prices_list = manager.get_prices_list()
-    for price in prices_list.prices:  # type: Price
+    for price in prices_list.prices:
         print(f'{price.source} | Buy: {price.buy} | Sell: {price.sell}')
 ```
 
