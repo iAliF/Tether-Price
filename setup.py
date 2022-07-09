@@ -9,7 +9,7 @@ with open(path.join(current_dir, 'README.md')) as f:
 setup(
     name='tether-price',
     packages=find_packages(),
-    version='0.0.2',
+    version='0.0.3',
     license='MIT',
     description='Tether Price is a library that helps you to get the Tether price from various websites.',
     long_description=description,
@@ -17,7 +17,7 @@ setup(
     author='Ali Fotouhi',
     author_email='the.alif.dev@gmail.com ',
     url='https://github.com/iAliF/Tether-Price',
-    download_url='https://github.com/iAliF/Tether-Price/archive/refs/tags/v0.0.2-alpha.tar.gz',
+    download_url='https://github.com/iAliF/Tether-Price/archive/refs/tags/v0.0.3-alpha.tar.gz',
     install_requires=['requests'],
     keywords=[
         'Tether', 'Tether price', 'Tether price to RIAL', 'Tether price to IRR'
