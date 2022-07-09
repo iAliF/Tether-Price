@@ -17,7 +17,7 @@ setup(
     author='Ali Fotouhi',
     author_email='the.alif.dev@gmail.com ',
     url='https://github.com/iAliF/Tether-Price',
-    download_url='https://github.com/iAliF/Tether-Price/archive/refs/tags/v0.0.1-alpha.tar.gz',
+    download_url='https://github.com/iAliF/Tether-Price/archive/refs/tags/v0.0.2-alpha.tar.gz',
     install_requires=['requests'],
     keywords=[
         'Tether', 'Tether price', 'Tether price to RIAL', 'Tether price to IRR'
